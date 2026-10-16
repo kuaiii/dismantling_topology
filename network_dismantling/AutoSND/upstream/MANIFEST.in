@@ -1,0 +1,9 @@
+include README.md
+include CITATION.cff
+include DATA_SOURCES_AND_LICENSES.md
+include requirements.txt
+include .env.example
+recursive-include configs *.yaml
+recursive-include src/autosnd/data *.json *.md *.edgelist
+recursive-include src/autosnd/defaults *.yaml
+recursive-include tests *.py

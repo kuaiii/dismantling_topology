@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autosnd"
+version = "0.1.0"
+description = "用于网络拆解的简洁 AutoSND 三阶段搜索实现"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Zhijing Hu"},
+  {name = "Changjun Fan"},
+  {name = "Yufan Deng"},
+  {name = "Zhiguang Cao"},
+]
+dependencies = [
+  "networkx>=3.2,<4",
+  "numpy>=1.26,<3",
+  "PyYAML>=6.0,<7",
+  "scipy>=1.11,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+autosnd = "autosnd.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+autosnd = [
+  "data/*.json",
+  "data/*.md",
+  "data/main12/*.edgelist",
+  "data/proxy/*.edgelist",
+  "defaults/*.yaml",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

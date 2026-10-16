@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NetworkDismantling"
+version = "0.2.0"
+description = "Unified network dismantling library with bundled NIRM and full AutoSND search"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "networkx==3.4.2", "numpy==1.26.4", "scipy==1.15.3", "pandas==2.3.3",
+  "tqdm", "PyYAML>=6,<7", "torch==2.3.0", "torch-geometric==2.7.0",
+  "torch-scatter==2.1.2", "torch-sparse==0.6.18"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["network_dismantling*"]
+namespaces = false
+
+[tool.setuptools]
+include-package-data = true

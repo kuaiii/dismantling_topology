@@ -1,0 +1,3 @@
+recursive-include network_dismantling *
+global-exclude *.pyc *.pyo .env *.key
+prune network_dismantling/__pycache__

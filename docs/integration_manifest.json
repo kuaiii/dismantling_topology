@@ -1,0 +1,32 @@
+{
+  "original_method_names": [
+    "degree",
+    "pagerank",
+    "betweenness",
+    "eigenvector",
+    "random",
+    "brute_force",
+    "entanglement_small",
+    "entanglement_mid",
+    "entanglement_large",
+    "CI_L1",
+    "CI_L2",
+    "CI_L3",
+    "CoreHD",
+    "GND",
+    "EI_s1",
+    "EI_s2",
+    "EGND",
+    "vertex_entanglement",
+    "GDM",
+    "GDM+R"
+  ],
+  "added_method_names": [
+    "NIRM",
+    "AutoSND"
+  ],
+  "unified_interface_signature": "dismantle(G, method, stop_condition=None, **kwargs)",
+  "nirm_source": "network_dismantling/NIRM/upstream",
+  "autosnd_source": "network_dismantling/AutoSND/upstream",
+  "excluded": "virtual environments, caches, prior runs, backups, credentials"
+}

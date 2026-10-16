@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "hash_definition": "SHA-256 of sorted canonical undirected edges encoded as 'u v\\n'",
+  "main12": [
+    "CEnew",
+    "Collaboration",
+    "condmat",
+    "crime",
+    "email",
+    "Grid",
+    "hamster",
+    "HepPh",
+    "Yeast",
+    "HI-II-14",
+    "Digg",
+    "Gnutella31"
+  ],
+  "datasets": {
+    "CEnew": {
+      "file": "CEnew.edgelist",
+      "nodes": 453,
+      "edges": 2025,
+      "sha256_normalized_edges": "c3a6a97466a114e115be333ac12052e39eb06676ee1bd9c977f4695f4fd7166f",
+      "role": "main12"
+    },
+    "Collaboration": {
+      "file": "Collaboration.edgelist",
+      "nodes": 4158,
+      "edges": 13422,
+      "sha256_normalized_edges": "3468e673c2e409616ac94bd543ad15f1a3225aecaea3d63c847ae30726dbec2b",
+      "role": "main12"
+    },
+    "condmat": {
+      "file": "condmat.edgelist",
+      "nodes": 21363,
+      "edges": 91286,
+      "sha256_normalized_edges": "2cd13a3b668fa25fe28bc945fa526f716294baf83bfb28730563c972a766e324",
+      "role": "main12"
+    },
+    "crime": {
+      "file": "crime.edgelist",
+      "nodes": 829,
+      "edges": 1473,
+      "sha256_normalized_edges": "4bcb339b44c4eaf8c8b31f130670dc4700d3ddb41b4f75958523ea9858733438",
+      "role": "main12"
+    },
+    "email": {
+      "file": "email.edgelist",
+      "nodes": 1133,
+      "edges": 5451,
+      "sha256_normalized_edges": "3acb313c1b0574bdeb4abb53fe999479f31fa67a3ace21626fe76178acf32097",
+      "role": "main12"
+    },
+    "Grid": {
+      "file": "Grid.edgelist",
+      "nodes": 4941,
+      "edges": 6594,
+      "sha256_normalized_edges": "bd2fc00f6be180993b8162d89dcb2355c22e51a46136b6cef155e101aaeca4b4",
+      "role": "main12"
+    },
+    "hamster": {
+      "file": "hamster.edgelist",
+      "nodes": 2000,
+      "edges": 16098,
+      "sha256_normalized_edges": "be2f11abaa56b06e81f55b45f5690af863fcb07595efc5d0b45219ff753b1eae",
+      "role": "main12"
+    },
+    "HepPh": {
+      "file": "HepPh.edgelist",
+      "nodes": 11204,
+      "edges": 117619,
+      "sha256_normalized_edges": "9255ea1c690e9966015f5563e47804ce87887e6a7411ed384cd696b04e81ea8f",
+      "role": "main12"
+    },
+    "Yeast": {
+      "file": "Yeast.edgelist",
+      "nodes": 2375,
+      "edges": 11693,
+      "sha256_normalized_edges": "c6e4bbd47abb8afc6fc253e32fa90369b47b2f32c0c8b88f5cb26609e4be0ff0",
+      "role": "main12"
+    },
+    "HI-II-14": {
+      "file": "HI-II-14.edgelist",
+      "nodes": 4165,
+      "edges": 13087,
+      "sha256_normalized_edges": "daf89e3869b5796b3911b01a1034eafdeaa8e0874759bf7681973a960e40c10b",
+      "role": "main12"
+    },
+    "Digg": {
+      "file": "Digg.edgelist",
+      "nodes": 29652,
+      "edges": 84781,
+      "sha256_normalized_edges": "01d8eb0bdd3bdb9478288436c1232cc54d96fc4fb7aff572a24318c61af33ad1",
+      "role": "main12"
+    },
+    "Gnutella31": {
+      "file": "Gnutella31.edgelist",
+      "nodes": 62561,
+      "edges": 147878,
+      "sha256_normalized_edges": "e1e01b939e943cd1e3407f3b83fe6612ac6e28a06bb9dae61aa25095b25cabc4",
+      "role": "main12"
+    },
+    "Powerlaw_500": {
+      "file": "Powerlaw_500.edgelist",
+      "nodes": 500,
+      "edges": 943,
+      "sha256_normalized_edges": "4a3ff50c548554dc488f9c73bb67f2516438a44c13a4f27fcb57193292927b93",
+      "role": "synthetic_search_proxy"
+    }
+  }
+}

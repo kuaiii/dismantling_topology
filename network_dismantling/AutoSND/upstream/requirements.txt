@@ -1,0 +1,4 @@
+networkx>=3.2,<4
+numpy>=1.26,<3
+PyYAML>=6.0,<7
+scipy>=1.11,<2

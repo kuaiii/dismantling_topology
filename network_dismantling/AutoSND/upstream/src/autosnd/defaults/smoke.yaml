@@ -1,0 +1,27 @@
+seed: 42
+model: gpt-4.1-mini
+proxy_dataset: Powerlaw_500
+evaluation_rate: 0.30
+candidate_timeout_seconds: 30
+output_dir: runs/smoke
+
+stage1:
+  candidates: 4
+
+stage2:
+  proposals: 2
+  top_valid: 20
+  feature_rows: 80
+
+stage3:
+  candidates: 4
+  seed_quotas:
+    quality: 1
+    speed: 1
+    balanced: 1
+    repair: 1
+  branch_budgets:
+    quality: 1
+    speed: 1
+    balanced: 1
+    repair: 1

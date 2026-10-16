@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "如果您使用 AutoSND，请引用配套论文和本软件。"
+title: "AutoSND"
+type: software
+version: 0.1.0
+date-released: 2026-07-26
+repository-code: "https://github.com/MirrorNew/AutoSND"
+authors:
+  - family-names: Hu
+    given-names: Zhijing
+  - family-names: Fan
+    given-names: Changjun
+  - family-names: Deng
+    given-names: Yufan
+  - family-names: Cao
+    given-names: Zhiguang

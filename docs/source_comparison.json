@@ -1,0 +1,24 @@
+{
+  "original_library": {
+    "included_source_files": 5477,
+    "modified_files": [
+      "autosnd_search_demo.py",
+      "autosnd_search_test.py",
+      "setup.py",
+      "network_dismantling/integration_adapters.py"
+    ]
+  },
+  "NIRM": {
+    "included_source_files": 14,
+    "modified_files": []
+  },
+  "AutoSND": {
+    "included_source_files": 51,
+    "modified_files": [
+      "src/autosnd/config.py",
+      "src/autosnd/datasets.py"
+    ]
+  },
+  "original_dismantle_function_unchanged": true,
+  "relocation_check": "passed with in-process offline search; native IPC/API unverified"
+}

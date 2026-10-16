@@ -1,0 +1,27 @@
+seed: 42
+model: gpt-5.5
+proxy_dataset: Powerlaw_500
+evaluation_rate: 0.30
+candidate_timeout_seconds: 90
+output_dir: runs/paper
+
+stage1:
+  candidates: 300
+
+stage2:
+  proposals: 10
+  top_valid: 20
+  feature_rows: 80
+
+stage3:
+  candidates: 200
+  seed_quotas:
+    quality: 8
+    speed: 6
+    balanced: 6
+    repair: 4
+  branch_budgets:
+    quality: 60
+    speed: 60
+    balanced: 50
+    repair: 30

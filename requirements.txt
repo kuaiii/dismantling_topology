@@ -1,0 +1,14 @@
+# Windows / Linux, Python 3.10-3.12, CPU. Python 3.11 is the tested interpreter.
+--extra-index-url https://download.pytorch.org/whl/cpu
+--find-links https://data.pyg.org/whl/torch-2.3.0+cpu.html
+--only-binary=:all:
+numpy==1.26.4
+networkx==3.4.2
+scipy==1.15.3
+pandas==2.3.3
+tqdm
+PyYAML>=6,<7
+torch==2.3.0+cpu
+torch-geometric==2.7.0
+torch-scatter==2.1.2+pt23cpu
+torch-sparse==0.6.18+pt23cpu
